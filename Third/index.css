@@ -1,0 +1,12 @@
+.welcome {
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translatex(100%)
+    }
+    100% {
+        transform: translatex(0 %)
+    }
+}
